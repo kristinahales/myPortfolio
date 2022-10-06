@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', 'Corbel Light';
     background-color: #484848;
 }
 
@@ -45,7 +45,7 @@ input, textarea {
     font-size: 18px;
     color: black;
     text-align: left;
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', 'Corbel Light';
     
 }
 
@@ -53,7 +53,7 @@ input, textarea {
     width: 260px; 
     color: black;
     text-align: center;
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', 'Corbel Light';
     font-size: 18px;
 }
 
