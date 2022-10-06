@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poiret One';
+    background-color: #484848;
+}
+
+.experience-main-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.experience-header {
+    font-size: 40px;
+    font-weight: bold;
+    color: #33CCCC;
+    text-align: left;
+    padding-left: 45px;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.experience-small-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom:20px;
+    width:90%;
+}
+
+
+.job-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: left;
+    padding-left: 45px;
+}
+
+li {
+    text-align: left;
+}
+
+
+@media (min-width: 1000px) {
+    .job-title {
+        font-size: 30px;
+  }
+  p, li {
+    font-size: 20px;
+  }
+  .experience-header {
+    font-size: 60px;
+  }
+}
+   

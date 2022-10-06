@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poiret One';
+    background-color: #484848;
+ 
+}
+
+.home-container {
+    display: flex; 
+}
+
+
+.home-header {
+    font-size: 40px;
+    font-weight: bold;
+    color: #F0FFFF;
+    padding-top: 150px;
+    text-align: left;
+    padding-left: 45px;
+}
+
+.first-name {
+    color: #33CCCC;
+    font-family: 'Segoe UI';
+}
+
+@media (max-width: 800px) {
+    .home-image {
+        display: none;
+    }
+}
+
+@media (min-width: 700px) {
+    .home-header {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 800px) {
+    .home-header {
+        display: none;
+    }
+}
+   
