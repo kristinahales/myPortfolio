@@ -12,6 +12,9 @@ class Skills extends React.Component {
         <li>JS</li>
         <li>SQL</li>
         <li>React</li>
+        <p className='skills-details'>I am also a firm believer that it is important to keep learning. Here are some courses that I have taken on Udemy recently:</p>
+        <li><a className='udemy' href="https://www.udemy.com/course/wordpress-for-beginners-course/">Wordpress for Beginners</a></li>
+        <li><a className='udemy' href="https://www.udemy.com/course/the-complete-sql-bootcamp/">The Complete SQL Bootcamp 2022</a></li><br/>
         <p className='skills-details'>Visit my <a href="https://www.linkedin.com/in/kristina-h-873311184/">LinkedIn</a> profile for more details.</p>
     </div>
     }
