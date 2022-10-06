@@ -13,6 +13,8 @@ export default function Contact() {
         }, (error) => {
             console.log(error.text);
         });
+
+        document.getElementById("form").reset();
     };
 
     
@@ -20,7 +22,7 @@ export default function Contact() {
         <div className='contact-main-container'>
             <div className='contact-header'>Contact Me</div>
             <span className='contact-words'>Let's get in touch.</span>
-            <form className='contact-form' onSubmit={sendEmail}>
+            <form id='form' className='contact-form' onSubmit={sendEmail}>
                 <input className='form-item' placeholder='Name' type="text" name="from_fullname" /><br/>
                 <input  className='form-item' placeholder='Email' type="email" name="reply_to_email" /><br/>
                 <input  className='form-item' placeholder='Phone' type="phone" name="phone" /><br/>
