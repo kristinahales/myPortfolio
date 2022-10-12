@@ -32,6 +32,16 @@ a:hover {
     color: #33CCCC;
 }
 
+.skills-image {
+  width: 30%;
+  padding-right: 15px;
+}
+
+.skills-image-container {
+  padding-left: 45px;
+  display: flex;
+}
+
 @media (min-width: 1000px) {
   p, li {
     font-size: 20px;
